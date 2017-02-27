@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "741540987811",
+    "firebase_url": "https://smartassistant-14038.firebaseio.com",
+    "project_id": "smartassistant-14038",
+    "storage_bucket": "smartassistant-14038.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741540987811:android:eb51722ec1a5a3b9",
+        "android_client_info": {
+          "package_name": "org.kdadev.smartassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741540987811-mgvquk9ntmr0e6lpkae4ctc6p2itgj8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.kdadev.smartassistant",
+            "certificate_hash": "585f84e8d8e42cf799fb928b5e5534b54cf9c3d1"
+          }
+        },
+        {
+          "client_id": "741540987811-7skbj5ff9pd3vtdtaehasa6nct9f541v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA41rRmuoR9TTahOMsjNb32DQH3tlfJCjY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741540987811-7skbj5ff9pd3vtdtaehasa6nct9f541v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

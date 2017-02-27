@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.kdadev.smartassistant.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:src="@drawable/polygon"
+        android:scaleType="centerCrop" />
+    <RelativeLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_marginTop="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:shadowColor="@color/colorTextPrimary"
+            android:text="Smart Assistant"/>
+
+        <TextView
+            android:paddingRight="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:shadowColor="@color/colorTextPrimary"
+            android:text="Your one stop app for managing your home"
+            android:id="@+id/slogan"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_below="@+id/slogan"
+            android:layout_alignParentEnd="true" />
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="REGISTER WITH EMAIL"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:onClick="redirRegister"
+            android:layout_marginTop="24dp"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/sign_in_button"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="Registered with email? "
+                android:textColor="#e0e0e0"
+                android:id="@+id/textView3"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:text="Sign in"
+                android:onClick="redirLogin"
+                android:clickable="true">
+            </TextView>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

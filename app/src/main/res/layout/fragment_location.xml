@@ -1,0 +1,49 @@
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.kdadev.smartassistant.LocationFragment">-->
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="org.kdadev.smartassistant.LocationFragment" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <Button
+                android:id="@+id/showHome"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/show_home"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:padding="5dp"/>
+
+            <Button
+                android:id="@+id/goHome"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/go_home"
+                android:padding="5dp"/>
+
+            <Button
+                android:id="@+id/showMyLocation"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/show_my_location"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+    </fragment>
